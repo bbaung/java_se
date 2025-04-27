@@ -46,7 +46,8 @@
 
 		//class declaration
 
-02	-	java program start run main-method
+02	-	java program start run main-method ,
+		single line comment - //
 
 
 		
