@@ -1,0 +1,31 @@
+//Java note
+
+01  -  //Java work flow
+
+	source code(Hello.java) -> java complier(javac) -> java bytecode (Hello.class) -> work in jvm
+
+	//Java Environment
+	
+	Java Runtime Environment (JRE) = Java Virtual Machine (JVM) + Java API
+
+	Java Development Kid (JDK) = JRE + Java Compiler + Java Tools
+
+02 - //Java Editions
+
+	-Java SE (Java Standard Edition)
+		Basic edition of java , for desktop app
+
+	-Java EE (Java Enterprise Edition)
+		Enterprise Java Application , similar like Web app
+
+	-Java ME (Java Micro Edition)
+		For Embedded environment , for factory , car 
+
+03 - //language basic
+
+	-basic structure of a class
+
+	-java data types
+
+	-identifiers & modifiers
+		
