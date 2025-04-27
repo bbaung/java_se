@@ -10,7 +10,7 @@
 
 	Java Development Kid (JDK) = JRE + Java Compiler + Java Tools
 
-02 - //Java Editions
+		 //Java Editions
 
 	-Java SE (Java Standard Edition)
 		Basic edition of java , for desktop app
@@ -21,11 +21,32 @@
 	-Java ME (Java Micro Edition)
 		For Embedded environment , for factory , car 
 
-03 - //language basic
+	 //language basic
 
 	-basic structure of a class
 
 	-java data types
 
 	-identifiers & modifiers
+
+	-statements
+
+		//OOP
+
+		//Essential API
+			-exceptions
+			-number
+			-strings
+			-date & calendar
+			-collections
+			-java io
+			-nio 2
+			-threads
+			-concurrency
+
+		//class declaration
+
+02	-	java program start run main-method
+
+
 		
