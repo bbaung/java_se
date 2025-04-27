@@ -49,5 +49,11 @@
 02	-	java program start run main-method ,
 		single line comment - //
 
+03	-	//class and object
+		-In Java, an object is created from a class.
+		-object contain state(data , attribute) and behaviour(method)
+		-can use [new] - key word to create object
+
+
 
 		
