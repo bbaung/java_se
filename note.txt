@@ -54,6 +54,10 @@
 		-object contain state(data , attribute) and behaviour(method)
 		-can use [new] - key word to create object
 
+04	-	//variable
+			variable -> [ Global variable (static variable or instant / object variable) ] or [ Local variable]
 
-
+			- static variable is specifically associated with the class, shared among all instances.
+			- instance variable / object variable is specifically tied to the object created
+			
 		
