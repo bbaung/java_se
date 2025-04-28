@@ -113,3 +113,9 @@
 
 				static void hello(String name,float age ){}
 			}
+
+06	-	//constructor
+
+			-constructor name must same as class name
+			-constructor does not have return type
+			
