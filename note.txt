@@ -70,29 +70,33 @@
 
 05	-	//method
 
-		public static void main (String [] args) {}
+		public static void main(String[] args) {}
 
-		public - access modifier (default - private)
-		static - non access modifier (default - instance method / object method)
-		void - return type (necessary , other - int , String ...)
+		public - access modifier (default - package-private)
+		static - non-access modifier (default - instance method / object method)
+		void - return type (necessary, other options - int, String, etc.)
 		main - method name (necessary)
-		String - arguments 
-		args - method body
-		{} - method scope / method range
+		String[] - parameter type (array of Strings)
+		args - parameter name
+		{} - method body / method scope
 
 		If there is no need to receive arguments, write () instead of (String[] args).
 
 
-		//arguments / parameter
+		//arguments / parameters
 		
-		public class WritingMethod{
+		public class WritingMethod {
 
 			public static void main(String[] args) {
-				showAddResult(4, 5); //parameter 4 , 5 to send
+				showAddResult(4, 5); //parameters 4, 5 to send
 			}
 
-			static void showAddResult(int a , int b){ //arguments a and b for receive
+			static void showAddResult(int a, int b) { //arguments a and b to receive
 				int x = a + b;
-				System.out.println("Add result : " + x);
+				System.out.println("Add result: " + x);
 			}
 		}
+
+
+		//static methods can only access static variables and static methods. 
+		//To access instance methods or instance variables, you first need to create an object.
