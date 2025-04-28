@@ -99,4 +99,17 @@
 
 
 		//static methods can only access static variables and static methods. 
-		//To access instance methods or instance variables, you first need to create an object.
+		//To access instance methods or instance variables, first need to create an object.
+
+		//method overloading
+
+			- Method overloading means using the same method name with different argument types.
+			
+			public class MethodOverloading{
+
+				static void hello(){}
+
+				static void hello(String name,int age){}
+
+				static void hello(String name,float age ){}
+			}
