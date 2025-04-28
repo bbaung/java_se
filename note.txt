@@ -58,6 +58,13 @@
 			variable -> [ Global variable (static variable or instant / object variable) ] or [ Local variable]
 
 			- static variable is specifically associated with the class, shared among all instances.
+			- static variables are stored in a single shared memory location
+
 			- instance variable / object variable is specifically tied to the object created
-			
+			- instance variables are stored in separate memory locations for each object
+
+
+05 -	//variable scope
+
+		//instance variable / object variable can only be accessed through an object		
 		
