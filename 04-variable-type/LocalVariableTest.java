@@ -28,7 +28,9 @@ public class LocalVariableTest{
     }
 
     public void hello(){
-        String message = "hello";
+        String message = "hello";   //overwrite
+
+        message = "hello2 , hi";
 
         System.out.println(message);
     }
