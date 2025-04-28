@@ -63,7 +63,7 @@
 			- instance variable / object variable is specifically tied to the object created
 			- instance variables are stored in separate memory locations for each object
 	
-		//variable scope
+		//variable scope - variable range
 
 		//instance variable / object variable can only be accessed through an object		
 		
