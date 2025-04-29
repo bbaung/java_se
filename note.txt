@@ -148,6 +148,11 @@
 			}
 		}
 
+		//stack memory is used for primitive data types and method calls, while heap memory is used for objects and reference type variables
+
 		//data type 
 		w3 school - https://www.w3schools.com/java/java_data_types.asp
 			
+
+		//type casting
+		w3 school - https://www.w3schools.com/java/java_type_casting.asp
