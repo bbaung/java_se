@@ -118,4 +118,36 @@
 
 			-constructor name must same as class name
 			-constructor does not have return type
+
+		//access-modifier
+			default - can be accessed in the same package
+			public - can be accessed from anywhere
+			private - can be accessed only within the same class
+			protected - can be accessed within the same package and by subclasses
+
+		//import
+		// Example of class import
+		import java.util.Scanner;
+
+		public class ImportExample {
+			public static void main(String[] args) {
+				Scanner scanner = new Scanner(System.in);
+				System.out.println("Enter your name: ");
+				String name = scanner.nextLine();
+				System.out.println("Hello, " + name);
+			}
+		}
+
+		// Example of static import
+		import static java.lang.Math.*;
+
+		public class StaticImportExample {
+			public static void main(String[] args) {
+				double result = sqrt(pow(3, 2) + pow(4, 2)); // Using static methods from Math
+				System.out.println("Result: " + result);
+			}
+		}
+
+		//data type 
+		w3 school - https://www.w3schools.com/java/java_data_types.asp
 			
