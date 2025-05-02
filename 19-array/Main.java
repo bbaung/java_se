@@ -20,7 +20,7 @@ public class Main{
 
         //Above was come from
 
-        String[] array_2;           //declaration array
+        String[] array_2;           //declaration array , dataType[] arrayName;
         array_2 = new String[5];    //allocate memory
 
         array_2[0] = "Hello";
@@ -56,8 +56,37 @@ public class Main{
 
         //output array_3
 
+        System.out.println(" ");
+        System.out.println("array_3 : ");
+
         for (String i : array_3) {
             System.out.println(i);
         }
-    }
+
+        //Sum and average of array item
+        System.out.println("");
+        System.out.println(">>>sum and average of array item");
+
+        int[] numbers = {2, -9, 0, 5, 12, -25, 22, 9, 8, 12};
+        int sum = 0;
+        Double average;
+        
+        // access all elements using for each loop
+        // add each element in sum
+        for (int number: numbers) {
+            sum += number;
+        }
+        
+        // get the total number of elements
+        int arrayLength = numbers.length;
+
+        // calculate the average
+        // convert the average from int to double
+        average =  ((double)sum / (double)arrayLength); //type casting
+
+        System.out.println("Sum = " + sum);
+        System.out.println("Average = " + average);
+        }
+
+    
 }
