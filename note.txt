@@ -156,3 +156,38 @@
 
 		//type casting
 		w3 school - https://www.w3schools.com/java/java_type_casting.asp
+
+
+		//string_variable.equal()
+
+			jshell> String a = "Hello World";
+			a ==> "Hello World"
+
+			jshell> String b = new String("Hello World");
+			b ==> "Hello World"
+
+			jshell> a == b;
+			$3 ==> false
+
+			jshell> String c = "Hello World";
+			c ==> "Hello World"
+
+			jshell> a == c;
+			$5 ==> true
+
+			jshell> c == b;
+			$6 ==> false
+
+			jshell> a.equal(b)
+			|  Error:
+			|  cannot find symbol
+			|    symbol:   method equal(java.lang.String)
+			|  a.equal(b)
+			|  ^-----^
+
+			jshell> a.equals(b)
+			$7 ==> true
+
+			jshell>
+
+			
