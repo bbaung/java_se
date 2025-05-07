@@ -158,7 +158,7 @@
 		w3 school - https://www.w3schools.com/java/java_type_casting.asp
 
 
-		//string_variable.equal()
+07	-	//string_variable.equal()
 
 			jshell> String a = "Hello World";
 			a ==> "Hello World"
@@ -189,5 +189,10 @@
 			$7 ==> true
 
 			jshell>
+
+
+08	-	//java label usage, nested for loop or other
+			link - https://www.tutorialspoint.com/How-to-use-labels-in-Java-code
+
 
 			
